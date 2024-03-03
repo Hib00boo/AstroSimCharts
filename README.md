@@ -4,11 +4,16 @@ This personal project is meant to help me learn C# fundamentals.
 
 ## Forms
 ### SystemPointChart
+![Screenshot of the main form called SystemPointChart. Its a Box with a section for a point chart on top and a section for buttons on the bottom. The buttons have labels "Add a planet" and "Add a Satellite"](/assets/images/MainForm.png)
 Form that contains two sections :
 * Points chart : Charts every object added to the system as points using a cartesian system.
 * Buttons : Opens a dialog box with textboxes to allow users to add an object of their choice to the system.<br>
 
 ### ObjectDialogBox
+<p align="center">
+  <img src="/assets/images/DialogBox.png" alt="Screenshot of the dialog box that opens when you click on either the 'Add a planet' button or 'Add a satellite'"/>
+</p>
+
 Form that opens when either "Add planet" or "Add satellite" buttons are pressed. Has textboxes to allow users to input data used to create objects that will later be charted on the points chart in the SystemPointChart form. 
 Data that can be inputted:
 * Object name
